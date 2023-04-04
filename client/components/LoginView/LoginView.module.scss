@@ -1,0 +1,28 @@
+.main {
+  flex: 1;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+
+  .container {
+    gap: 8px;
+    top: -20px;
+    display: flex;
+    flex-direction: column;
+
+    .big_text {
+      color: #fff;
+      font-size: 32px;
+      font-weight: 600;
+    }
+
+    .buttons {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+    }
+  }
+}

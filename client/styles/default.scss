@@ -1,0 +1,39 @@
+* {
+  margin: 0px;
+  border: 0px;
+  padding: 0px;
+  outline: 0px;
+  font-size: 14px;
+  font-weight: 500;
+  width: max-content;
+  position: relative;
+  height: max-content;
+  font-family: "Poppins";
+  background-color: transparent;
+}
+
+img {
+  object-fit: cover;
+}
+
+*:focus {
+  border: 0px;
+  outline: 0px;
+}
+
+*:active {
+  outline: 0px;
+  border: 0px;
+}
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+body {
+  overflow-x: hidden;
+}
